@@ -1,16 +1,10 @@
-# hello_me
+Dry part answers:
+1. The class that is used to implement the controller pattern in this library is: SnappingSheetController.
+The features it allows the developer to control are: the position of the snapping sheet - snap to position X or use snappingPosition to do so with animation,
+stop ongoing snapping, get the current position and the state of the snapping sheet - rather it's attached, in the move or not.
 
-A new Flutter application.
+2. The parameter that controls that behavior is: SnappingPositions.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. Advantage of inkWell over GestureDetector: inkwell has an effect of ink splash when tapped (ripple effect), GestureDetector doesn't have it.
+Advantage of GestureDetector over inkWell: GestureDetector provides more control over the touchable widget -
+ gives you more option to detect user interaction and have custom gestures that applies to those interactions, like: dragging.
